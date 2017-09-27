@@ -2,7 +2,7 @@
 
 This project consists of my Vex Code that I created throughout High School. During my 8th grade year, I started to learn basic functions and programming concepts, and very gradually grew on to more advanced topics, and grew my passion for CS. Some of my prouder accomplishments were: utilizing cyclic lists in an LCD Menu; using PID loops to control motors to more accurately control the position of a robot, and using structs to implement several factors, including an acceleration factor that limited how fast the motors could speed up; and using trapezoidal integration approximation to more accuratedly determine the heading of a gyro sensor. Trying to create a system that wrote down the state of the joystick to play back the systems autonomously was a cool idea, but was ultimately unsuccessful (RecorderLib).
 
-Furthermore, I apologize, I did homebrew version control on this software - as in I have about 50 folders with different versions of my code. The most up to date code is available here
+Furthermore, I apologize, I did homebrew version control on this software - as in I have about 50 folders with different versions of my code. The most up to date code is available here. Beyond that, this code references BNS's HC-05 Bluetooth library, through which I learned about UART communication. This library is availible on their github, and is not in my code, but is referenced by my code several times - however, it should run fine without it, as I used preprocessors to ensure my code could run with and without certain resources, such as that library, due to memory constraints on the cortex system.
 
 ## Using This Code
 
